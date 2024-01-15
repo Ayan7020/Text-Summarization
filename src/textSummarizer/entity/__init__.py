@@ -19,4 +19,16 @@ class DataValidationConfig:
 class DataTransformationConfig:
     root_dir: Path
     data_path: Path
-    tokenizer_name: Path      
+    tokenizer_name: Path  
+    
+class ModelTrainerConfig:
+    root_dir: Path
+    data_path: Path
+    model_name: Path
+    Num_epochs: int 
+    per_device_train_batch_size: int
+    per_device_eval_batch_size: int
+    weight_decay: float 
+    evaluation_strategy: str
+    metric_for_best_model: str
+    gradient_accumulation_steps: int         
