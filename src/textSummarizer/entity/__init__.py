@@ -21,6 +21,8 @@ class DataTransformationConfig:
     data_path: Path
     tokenizer_name: Path  
     
+    
+@dataclass(frozen=True)    
 class ModelTrainerConfig:
     root_dir: Path
     data_path: Path
@@ -31,4 +33,12 @@ class ModelTrainerConfig:
     weight_decay: float 
     evaluation_strategy: str
     metric_for_best_model: str
-    gradient_accumulation_steps: int         
+    gradient_accumulation_steps: int 
+    
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    data_path: Path
+    model_path: Path
+    token_path: Path
+    metric_file_name: Path            
