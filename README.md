@@ -6,7 +6,9 @@
 This project focuses on text summarization using a Deep Learning approach. It leverages the Hugging Face `transformers` library, specifically the BART (Bidirectional and Auto-Regressive Transformers) model for pre-trained tokenization and fine-tuning. The goal is to generate concise summaries of given input texts.
 
 ![Alt text](images/text_before.png)
+### Conversation Between Two Person
 ![Alt text](images/text_sum_main.png)
+### Noramal Pessage
 ![Alt text](images/Text_after_1.png)
 
 
@@ -53,8 +55,4 @@ To evaluate the model's performance, use the ROUGE metrics. Adjust the evaluatio
 
 4. **Run the Flask application:**
    ```bash
-   python app.py 
-
-
-
-
+   python app.py  
