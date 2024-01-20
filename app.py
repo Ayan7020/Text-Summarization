@@ -23,9 +23,9 @@ def submit():
     if request.method == 'POST':
         user_input = request.form.get('userTextarea')  
             
-    summary = clapp.predict_obj.predict(user_input)   
-    return f"{summary}" 
-    # return render_template('index.html')  
+    summary = clapp.predict_obj.predict(user_input) 
+    
+    return render_template('index.html',sum=summary)  
 
 
 if __name__=="__main__":
