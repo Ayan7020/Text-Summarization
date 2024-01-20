@@ -1,8 +1,14 @@
 # Text Summarization Project
+ 
 
 ## Overview
 
 This project focuses on text summarization using a Deep Learning approach. It leverages the Hugging Face `transformers` library, specifically the BART (Bidirectional and Auto-Regressive Transformers) model for pre-trained tokenization and fine-tuning. The goal is to generate concise summaries of given input texts.
+
+![Alt text](images/text_before.png)
+![Alt text](images/text_sum_main.png)
+![Alt text](images/Text_after_1.png)
+
 
 ## Features
 
@@ -38,15 +44,15 @@ To evaluate the model's performance, use the ROUGE metrics. Adjust the evaluatio
    cd text-summarization-project
 
 2. **Install dependencies:**
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 3. **Train The Model:**
-   '''bash
+   ```bash
    python main.py
 
 4. **Run the Flask application:**
-   '''bash
+   ```bash
    python app.py 
 
 
