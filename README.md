@@ -8,7 +8,7 @@ This project focuses on text summarization using a Deep Learning approach. It le
 ![Alt text](images/text_before.png)
 ### Conversation Between Two Person
 ![Alt text](images/text_sum_main.png)
-### Noramal Pessage
+### Normal Pessage
 ![Alt text](images/Text_after_1.png)
 
 
