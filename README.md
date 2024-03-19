@@ -42,7 +42,7 @@ To evaluate the model's performance, use the ROUGE metrics. Adjust the evaluatio
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/text-summarization-project.git
+   git clone https://github.com/Ayan7020/text-summarization-project.git
    cd text-summarization-project
 
 2. **Install dependencies:**
